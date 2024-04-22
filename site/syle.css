@@ -1,0 +1,326 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+#display1{
+    background-color: rgb(245, 239, 229);
+}
+.divBack{
+    width: 80%;
+    margin: auto;
+}
+header{
+    padding-top: 10px;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+div#logo{
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+#logo img{
+    width: 45px;
+    height: 45px;
+    padding-right: 5px;
+}
+div.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: orange;
+}
+div#botaoH{
+    display: flex;
+    align-items: center;
+}
+#botaoH a{
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 20px 40px;
+    font-weight: bold;
+}
+.conteudo1{
+    display: flex;
+    align-items: center;
+    padding-bottom: 3%;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 5% 0;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    line-height: 30px;
+    color: black;
+}
+.botoes1{
+    margin-top: 100px;
+    display: flex;
+    align-items: center
+}
+.botoes1 #botaoGet{
+    width: 20%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 20px 30px;
+    font-weight: bold;
+}
+.botoes1 img{
+    padding-left: 10px;
+}
+.sDown{
+    margin-top: 150px;
+}
+.sDown a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    text-decoration: none;
+    color: black;
+    gap: 20px;
+}
+.img img{
+    width: 600px;
+}
+.marcas{
+    padding: 40px 0;
+    width: 100%;
+    background-color: orange;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.marcas img{
+    width: 200px;
+    height: 80px;
+}
+#display2{
+    background-image: url(img/background-lines.jpg);
+    margin: 0;
+}
+.conteudo2{
+    display: flex;
+    padding: 10%;
+    gap: 5%;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.botoes2{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    gap: 10%;
+    color: black;
+}
+.botoes2 a{
+    width: 20%;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border: 1px solid orange;
+    border-radius: 30px;
+    padding: 20px 30px;
+    font-weight: bold;
+}
+#display3{
+    background-color: rgb(245, 239, 229);
+}
+.titulo{
+    text-align: center;
+    padding-top: 3%;
+}
+.containers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5%;
+    gap: 20px;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.ViewCase{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: black;
+    padding-top: 10%;
+    width: 25%;
+}
+.fotos{
+    border-radius: 5%;
+}
+.botaoViewMore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.botaoViewMore a{
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 20px 40px;
+    font-weight: bold;
+}
+#display4{
+    margin: 0;
+    background-image: url(img/background-lines.jpg);
+}
+#botaoSeeAll{
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    padding: 20px 40px;
+    width: 25%;
+    border-radius: 10px;
+    margin-top: 5%;
+}
+.ava{
+    background-color: rgba(255, 165, 0, 0.3);
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    box-sizing: border-box;
+}
+.aspas{
+    background-color: orange;
+    border-radius: 100%;
+    padding: 5px;
+    width: 40px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.costumerInfo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.p1, .p2{
+    margin: 0;
+}
+.p1{
+    font-weight: bold;
+}
+.p2{
+    color: gray;
+}
+.costumerFoto{
+    border-radius: 100%;
+}
+.stars{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.stars ion-icon{
+    color: yellow;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+.contents h1{
+    margin-top: 0;
+}
+footer{
+    padding-top: 3%;
+}
+.l1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 0;
+}
+.letstalk a{
+    width: 20%;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border: 1px solid orange;
+    border-radius: 30px;
+    padding: 20px 30px;
+    font-weight: bold;
+}
+.l2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 25px;
+}
+.contact{
+    display: flex;
+}
+#tel{
+    border-right: 1px solid lightgray;
+    padding-right: 25px;
+}
+#mail{
+    padding-left: 25px;
+}
+.l3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    margin-bottom: 5%;
+}
+.apps{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.apps a{
+    color: black;
+    padding: 10px;
+}
+.apps a:hover{
+    color: white;
+    background-color: orange;
+    border-radius: 100%;
+}
